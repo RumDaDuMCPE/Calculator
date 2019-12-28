@@ -486,6 +486,8 @@ public class Calculator {
 			return (x / y);
 		case '%':
 			return (x % y);
+		case '*':
+			return (x * y);
 		default:
         		inText.setFont(inText.getFont().deriveFont(Font.PLAIN));
 			return y;
