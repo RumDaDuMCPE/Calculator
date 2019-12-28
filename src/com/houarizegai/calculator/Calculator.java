@@ -480,20 +480,17 @@ public class Calculator {
         switch (opt) {
 		case '+':
             		return (x + y);
-			break;
         	case '-':
 			return (x - y);
-			break;
 		case '/':
 			return (x / y);
-			break;
 		case '%':
 			return (x % y);
-			break;
 		default:
         		inText.setFont(inText.getFont().deriveFont(Font.PLAIN));
 			return y;
 	}
+    }
 
     private void repaintFont() {
         inText.setFont(inText.getFont().deriveFont(Font.PLAIN));
